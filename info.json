@@ -1,0 +1,60 @@
+{
+  "StreamerHelper": {
+    "debug": false,
+    "roomCheckTime": 600,
+    "recycleCheckTime": 1800,
+    "videoPartLimitSize": 100,
+    "logLevel": "error",
+    "push": {
+      "mail": {
+        "enable": true,
+        "host": "smtp.qq.com",
+        "port": 465,
+        "from": "",
+        "pwd": "",
+        "to": "",
+        "secure": true
+      },
+      "wechat": {
+        "enable": true,
+        "sendKey": ""
+      }
+    }
+  },
+  "personInfo": {
+    "nickname": "直播代录茄薇_itgoyo",
+   "access_token": "2agu47f0bc32199fad28bdc78155acda31",
+    "refresh_token": "c0ai7c7301b19f3c1b28bd6f59f0653031",
+    "expires_in": 115552000,
+    "tokenSignDate": 21647502442285,
+    "mid": 3526120032
+  },
+  "streamerInfo": [
+    {
+      "卡尔": {
+        "uploadLocalFile": true,
+        "deleteLocalFile": true,
+        "roomName": "卡尔",
+        "delayTime": 0,
+        "desc": "卡尔的直播录像",
+        "source": "",
+        "dynamic": "",
+        "copyright": 2,
+        "roomUrl": "https://www.huya.com/kaerlol",
+        "tid": 172,
+        "tags": [
+          "卡尔",
+          "全能王",
+          "英雄联盟",
+          "最强上单",
+          "严君泽",
+          "国服最强",
+          "国服第一",
+          "LOL",
+          "虎牙",
+          "最强王者"
+        ]
+      }
+    }
+  ]
+}
