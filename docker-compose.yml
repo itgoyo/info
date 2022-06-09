@@ -2,7 +2,7 @@ version: '3'
 services:
   StreamerHelper
     image: itgoyo/streamerhelper:v1
-    volumes
+    volumes:
       - "/${PWD}/StreamerHelper/templates/info.json:/app/templates/info.json"
       - "/${PWD}/StreamerHelper/download:/app/download"
     restart:
