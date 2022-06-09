@@ -3,7 +3,7 @@ services:
   StreamerHelper:
     image: itgoyo/streamerhelper:v1
     volumes:
-      - "./StreamerHelper/templates/info.json:/app/templates/info.json"
+      - "./info.json:/app/templates/info.json"
       - "./StreamerHelper/download:/app/download"
     restart:
         always
